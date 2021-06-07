@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(190deg, rgba(38,27,1,1) 0%, rgba(66,47,3,1) 36%, rgba(82,56,1,1) 49%, rgba(106,76,2,1) 66%, rgba(131,93,1,1) 78%, rgba(179,127,4,1) 89%, rgba(205,147,6,1) 97%);
+
+    .fake-window{
+        border: 1px solid white;
+        opacity: 0.5;
+        height: 80%;
+        width: 85%;
+        border-radius: 4px;
+
+        .bar{
+            position: relative;
+            border-bottom: 1px solid white;
+            opacity: 0.5;
+            padding-top: 2%;
+
+            .point-1{
+                content: "";
+                position: absolute;
+                border: 1px solid white;
+                border-radius: 100%;
+                background: white;
+                opacity: 0.5;
+                height: 28%;
+                width: 0.8%;
+                top: 32%;
+                left: 2%;
+            }
+            .point-2{
+                content: "";
+                position: absolute;
+                border: 1px solid white;
+                border-radius: 100%;
+                background: white;
+                opacity: 0.5;
+                height: 28%;
+                width: 0.8%;
+                top: 32%;
+                left: 3.5%;
+            }
+            .point-3{
+                content: "";
+                position: absolute;
+                border: 1px solid white;
+                border-radius: 100%;
+                background: white;
+                opacity: 0.5;
+                height: 28%;
+                width: 0.8%;
+                top: 32%;
+                left: 4.9%;
+            }
+
+            .arrows{
+                position: absolute;
+                top: 34%;
+                right: 4%;
+                height: 9%;
+                width: 1%;
+                .arrow-1{
+                    content: "";
+                    height: 75%;
+                    width: 52%;
+                    background-color: white;
+                    transform: rotate(47deg);
+                    }
+                    .arrow-1::after{
+                        content: "";
+                        position: absolute;
+                        height: 151%;
+                        width: 110%;
+                        background-color: white;
+                        transform: rotate(86deg);
+                        top: 151%;
+                        right: -56%;
+                    }
+                }
+                
+            }
+
+        }
+        .menu ul{
+            margin:0;
+            display: flex;
+            li{
+                padding: 10px;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+}
+    
+
+        
